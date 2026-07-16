@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDateTime;
 
 @Controller
-@CrossOrigin("http://localhost:5173")
+@CrossOrigin("https://chat-app-frontend-eta-one.vercel.app")
 public class MessagesController {
 
     @Autowired
