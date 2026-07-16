@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ChapAppBackendApplication {
 
 	public static void main(String[] args) {
+		System.out.println("mongo url: " + System.getenv("MONGO_URL"));
 		SpringApplication.run(ChapAppBackendApplication.class, args);
 	}
 
